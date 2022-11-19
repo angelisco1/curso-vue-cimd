@@ -5,14 +5,17 @@
     <cmp-hijo
       :cuenta="cuenta"
       @incrementaCuenta="incrementar"></cmp-hijo>
+
+    <cv-interactivo></cv-interactivo>
   </div>
 </template>
 
 <script>
 import CmpHijo from './CmpHijo.vue'
+import CvInteractivo from './CvInteractivo.vue'
 
 export default {
-  components: { CmpHijo },
+  components: { CmpHijo, CvInteractivo },
   data() {
     return {
       cuenta: 0
