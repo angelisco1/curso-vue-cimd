@@ -6,7 +6,21 @@
 
 <script>
 export default {
-  props: ['color', 'sabor']
+  // props: ['color', 'sabor']
+  props: {
+    color: {
+      type: String,
+      // required: true,
+      default: 'yellow',
+      validator: (color) => {
+        if (['red', 'yellow', 'orange', 'blue'].includes(color)) {
+          return true
+        }
+        return false
+      }
+    },
+    sabor: String,
+  }
   // data() {
   //   return {
   //     sabor: 'limón',

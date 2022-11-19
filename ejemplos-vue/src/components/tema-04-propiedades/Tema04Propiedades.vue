@@ -1,7 +1,8 @@
 <template>
   <div>
     <h2>Propiedades</h2>
-    <sugus color="yellow" sabor="limón"></sugus>
+    <sugus sabor="limón"></sugus>
+    <!-- <sugus sabor="fresa" color="black"></sugus> -->
     <sugus color="red" sabor="fresa"></sugus>
     <sugus color="blue" sabor="piña"></sugus>
     <sugus color="orange" sabor="naranja"></sugus>
