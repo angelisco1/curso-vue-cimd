@@ -1,0 +1,28 @@
+{
+  "vendehumos": [
+    {
+      "id": "a",
+      "nombre": "Vendehumo 1",
+      "categoria": "trading",
+      "votos": 2
+    },
+    {
+      "nombre": "Vendehumo 2",
+      "categoria": "dropshipping",
+      "votos": 0,
+      "id": "4965735616695839"
+    },
+    {
+      "nombre": "aaa",
+      "categoria": "crypto",
+      "votos": 0,
+      "id": "2544239351636155"
+    },
+    {
+      "nombre": "Vendehumo 3",
+      "categoria": "dropshipping",
+      "votos": 0,
+      "id": "9364737185603291"
+    }
+  ]
+}

@@ -11,7 +11,8 @@
     <!-- <tema-07-comunicacion-entre-componentes></tema-07-comunicacion-entre-componentes> -->
     <!-- <tema-08-slots-y-template></tema-08-slots-y-template> -->
     <!-- <tema-09-formularios-y-modificadores></tema-09-formularios-y-modificadores> -->
-    <tema-10-referencias></tema-10-referencias>
+    <!-- <tema-10-referencias></tema-10-referencias> -->
+    <tema-11-composition-api></tema-11-composition-api>
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import Tema07ComunicacionEntreComponentes from './components/tema-07-comunicacio
 import Tema08SlotsYTemplate from './components/tema-08-slots-y-template/Tema08SlotsYTemplate.vue'
 import Tema09FormulariosYModificadores from './components/tema-09-formularios-y-modificadores/Tema09FormulariosYModificadores.vue'
 import Tema10Referencias from './components/tema-10-referencias/Tema10Referencias.vue'
+import Tema11CompositionApi from './components/tema-11-composition-api/Tema11CompositionApi.vue'
 
 export default {
   name: 'App',
@@ -41,6 +43,7 @@ export default {
     Tema08SlotsYTemplate,
     Tema09FormulariosYModificadores,
     Tema10Referencias,
+    Tema11CompositionApi,
   }
 }
 </script>
