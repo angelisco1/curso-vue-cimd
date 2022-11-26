@@ -2,10 +2,10 @@
   <div>
     <ul>
       <li>
-        <router-link to="/">Inicio</router-link>
+        <router-link :to="{name: 'vendehumos'}">Inicio</router-link>
       </li>
       <li>
-        <router-link to="/nuevo-vendehumo">Nuevo vendehumo</router-link>
+        <router-link :to="{name: 'nuevo-vendehumo'}">Nuevo vendehumo</router-link>
       </li>
     </ul>
   </div>
